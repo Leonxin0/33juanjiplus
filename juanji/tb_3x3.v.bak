@@ -1,0 +1,36 @@
+`timescale 1ns / 1ps
+module tb_3x3();
+
+reg        clk     ;
+reg        rstn    ;
+reg  [7:0] data_in ;
+
+wire [7:0] matrix_p11,matrix_p12,matrix_p13;
+wire [7:0] matrix_p21,matrix_p22,matrix_p23;
+wire [7:0] matrix_p31,matrix_p32,matrix_p33;
+Matrix_Generate_3x3_8Bit Matrix_Generate_3x3_8Bit_u(
+   .clk    (clk    ),  //input            clk                              ,
+   .rstn   (rstn   ),  //input            rstn                             ,
+   .data_in(data_in),  //input      [7:0] data_in                          ,
+   .matrix_p11(matrix_p11),matrix_p12(matrix_p12),matrix_p13(matrix_p13),  //output reg [7:0] matrix_p11,matrix_p12,matrix_p13 ,
+   .matrix_p21(matrix_p21),matrix_p22(matrix_p22),matrix_p23(matrix_p23),  //output reg [7:0] matrix_p21,matrix_p22,matrix_p23 ,
+   .matrix_p31(matrix_p31),matrix_p32(matrix_p32),matrix_p33(matrix_p33),  //output reg [7:0] matrix_p31,matrix_p32,matrix_p33 
+);
+always#10 clk <= !clk;
+initial begin
+   clk     = 0;
+   rstn    = 0;
+   data_in = 0;
+   #100;
+   rstn = 1;
+end
+always@(posedge clk or negedge rstn)
+   begin
+      if(!rstn)begin
+         data_in <= 0;
+      end else begin
+         data_in <= data_in+1;
+      end
+   end
+   
+endmodule

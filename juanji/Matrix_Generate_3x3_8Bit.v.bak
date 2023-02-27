@@ -1,0 +1,60 @@
+`timescale 1ns / 1ps
+module Matrix_Generate_3x3_8Bit(
+   input            clk                              ,
+   input            rstn                             ,
+   input      [7:0] data_in                          ,
+   output reg [7:0] matrix_p11,matrix_p12,matrix_p13 ,
+   output reg [7:0] matrix_p21,matrix_p22,matrix_p23 ,
+   output reg [7:0] matrix_p31,matrix_p32,matrix_p33 
+);
+
+wire [7:0] row1_data;
+wire [7:0] row2_data;
+reg  [7:0] row3_data;
+
+always@(posedge clk or negedge rstn)
+   begin
+      if(!rstn)begin
+         row3_data <= 0;
+      end else begin
+         row3_data <= data_in;
+      end
+   end 
+
+shift shift_u 
+//#(
+//   .RAM_Length (IMG_HDISP)
+//);
+(
+	.clock    (clk  ),
+   .clken    (1),
+	.shiftin  (row3_data  ),
+	.taps0x   (row2_data  ),
+	.taps1x   (row1_data  ),
+	.shiftout (      ),
+);
+
+always@(posedge clk or negedge rstn)
+		begin
+			if(!rstn)begin
+				{matrix_p11,matrix_p12,matrix_p13} <= 24'd0;
+				{matrix_p21,matrix_p22,matrix_p23} <= 24'd0;
+				{matrix_p31,matrix_p32,matrix_p33} <= 24'd0;
+			end else if(read_frame_href)begin
+            if(resd_frame_clken)begin
+               {matrix_p11,matrix_p12,matrix_p13} <= {matrix_p12,matrix_p13,row1_data};
+               {matrix_p21,matrix_p22,matrix_p23} <= {matrix_p22,matrix_p23,row2_data};
+               {matrix_p31,matrix_p32,matrix_p33} <= {matrix_p32,matrix_p33,row3_data};
+            end else begin
+               {matrix_p11,matrix_p12,matrix_p13} <= {matrix_p11,matrix_p12,matrix_p13};
+               {matrix_p21,matrix_p22,matrix_p23} <= {matrix_p21,matrix_p22,matrix_p23};
+               {matrix_p31,matrix_p32,matrix_p33} <= {matrix_p31,matrix_p32,matrix_p33};
+            end
+			end else begin
+				{matrix_p11,matrix_p12,matrix_p13} <= 24'd0;
+				{matrix_p21,matrix_p22,matrix_p23} <= 24'd0;
+				{matrix_p31,matrix_p32,matrix_p33} <= 24'd0;
+			end
+		end
+
+endmodule

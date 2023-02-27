@@ -1,0 +1,99 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/LT/Desktop/juanji/simulation/modelsim
+vadder
+Z1 !s110 1677464291
+!i10b 1
+!s100 D8bTWQYMIHa;nFbgfk9=62
+IUWCQ0A>`K_H2b]0?l[`lJ0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1677464222
+8C:/Users/LT/Desktop/juanji/adder.v
+FC:/Users/LT/Desktop/juanji/adder.v
+L0 2
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1677464291.000000
+!s107 C:/Users/LT/Desktop/juanji/adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/LT/Desktop/juanji|C:/Users/LT/Desktop/juanji/adder.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+C:/Users/LT/Desktop/juanji
+Z7 tCvgOpt 0
+vMatrix_Generate_3x3_8Bit
+R1
+!i10b 1
+!s100 4da19HYHAbeb;Rk5Hk5243
+I]L]PAl[=C>A8Wa@b5iRPU2
+R2
+R0
+w1677426238
+8C:/Users/LT/Desktop/juanji/Matrix_Generate_3x3_8Bit.v
+FC:/Users/LT/Desktop/juanji/Matrix_Generate_3x3_8Bit.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/LT/Desktop/juanji/Matrix_Generate_3x3_8Bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/LT/Desktop/juanji|C:/Users/LT/Desktop/juanji/Matrix_Generate_3x3_8Bit.v|
+!i113 1
+R5
+R6
+R7
+n@matrix_@generate_3x3_8@bit
+vshift8bit_64
+R1
+!i10b 1
+!s100 5D5?Y]:W_1<zQ>?7L6HD]2
+IT>@]Y6Z:_KYiFBL44EY[U3
+R2
+R0
+w1675855513
+8C:/Users/LT/Desktop/juanji/shift8bit_64.v
+FC:/Users/LT/Desktop/juanji/shift8bit_64.v
+L0 39
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/LT/Desktop/juanji/shift8bit_64.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/LT/Desktop/juanji|C:/Users/LT/Desktop/juanji/shift8bit_64.v|
+!i113 1
+R5
+R6
+R7
+vtb_3x3
+R1
+!i10b 1
+!s100 =7?RiKYS<OXI_H4mdPE1g0
+I7T;JMTiB7fHiW1cL?aYF73
+R2
+R0
+w1677422444
+8C:/Users/LT/Desktop/juanji/tb_3x3.v
+FC:/Users/LT/Desktop/juanji/tb_3x3.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/LT/Desktop/juanji/tb_3x3.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/LT/Desktop/juanji|C:/Users/LT/Desktop/juanji/tb_3x3.v|
+!i113 1
+R5
+R6
+R7

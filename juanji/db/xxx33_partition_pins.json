@@ -1,0 +1,401 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "dout0[0]",
+					"strict" : false
+				},
+				{
+					"name" : "dout0[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dout0[2]",
+					"strict" : false
+				},
+				{
+					"name" : "dout0[3]",
+					"strict" : false
+				},
+				{
+					"name" : "dout0[4]",
+					"strict" : false
+				},
+				{
+					"name" : "dout0[5]",
+					"strict" : false
+				},
+				{
+					"name" : "dout0[6]",
+					"strict" : false
+				},
+				{
+					"name" : "dout0[7]",
+					"strict" : false
+				},
+				{
+					"name" : "dout1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "dout1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dout1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "dout1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "dout1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "dout1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "dout1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "dout1[7]",
+					"strict" : false
+				},
+				{
+					"name" : "dout2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "dout2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dout2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "dout2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "dout2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "dout2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "dout2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "dout2[7]",
+					"strict" : false
+				},
+				{
+					"name" : "dout3[0]",
+					"strict" : false
+				},
+				{
+					"name" : "dout3[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dout3[2]",
+					"strict" : false
+				},
+				{
+					"name" : "dout3[3]",
+					"strict" : false
+				},
+				{
+					"name" : "dout3[4]",
+					"strict" : false
+				},
+				{
+					"name" : "dout3[5]",
+					"strict" : false
+				},
+				{
+					"name" : "dout3[6]",
+					"strict" : false
+				},
+				{
+					"name" : "dout3[7]",
+					"strict" : false
+				},
+				{
+					"name" : "dout4[0]",
+					"strict" : false
+				},
+				{
+					"name" : "dout4[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dout4[2]",
+					"strict" : false
+				},
+				{
+					"name" : "dout4[3]",
+					"strict" : false
+				},
+				{
+					"name" : "dout4[4]",
+					"strict" : false
+				},
+				{
+					"name" : "dout4[5]",
+					"strict" : false
+				},
+				{
+					"name" : "dout4[6]",
+					"strict" : false
+				},
+				{
+					"name" : "dout4[7]",
+					"strict" : false
+				},
+				{
+					"name" : "dout5[0]",
+					"strict" : false
+				},
+				{
+					"name" : "dout5[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dout5[2]",
+					"strict" : false
+				},
+				{
+					"name" : "dout5[3]",
+					"strict" : false
+				},
+				{
+					"name" : "dout5[4]",
+					"strict" : false
+				},
+				{
+					"name" : "dout5[5]",
+					"strict" : false
+				},
+				{
+					"name" : "dout5[6]",
+					"strict" : false
+				},
+				{
+					"name" : "dout5[7]",
+					"strict" : false
+				},
+				{
+					"name" : "dout6[0]",
+					"strict" : false
+				},
+				{
+					"name" : "dout6[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dout6[2]",
+					"strict" : false
+				},
+				{
+					"name" : "dout6[3]",
+					"strict" : false
+				},
+				{
+					"name" : "dout6[4]",
+					"strict" : false
+				},
+				{
+					"name" : "dout6[5]",
+					"strict" : false
+				},
+				{
+					"name" : "dout6[6]",
+					"strict" : false
+				},
+				{
+					"name" : "dout6[7]",
+					"strict" : false
+				},
+				{
+					"name" : "dout7[0]",
+					"strict" : false
+				},
+				{
+					"name" : "dout7[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dout7[2]",
+					"strict" : false
+				},
+				{
+					"name" : "dout7[3]",
+					"strict" : false
+				},
+				{
+					"name" : "dout7[4]",
+					"strict" : false
+				},
+				{
+					"name" : "dout7[5]",
+					"strict" : false
+				},
+				{
+					"name" : "dout7[6]",
+					"strict" : false
+				},
+				{
+					"name" : "dout7[7]",
+					"strict" : false
+				},
+				{
+					"name" : "dout8[0]",
+					"strict" : false
+				},
+				{
+					"name" : "dout8[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dout8[2]",
+					"strict" : false
+				},
+				{
+					"name" : "dout8[3]",
+					"strict" : false
+				},
+				{
+					"name" : "dout8[4]",
+					"strict" : false
+				},
+				{
+					"name" : "dout8[5]",
+					"strict" : false
+				},
+				{
+					"name" : "dout8[6]",
+					"strict" : false
+				},
+				{
+					"name" : "dout8[7]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "rstn",
+					"strict" : false
+				},
+				{
+					"name" : "dataG[0]",
+					"strict" : false
+				},
+				{
+					"name" : "dataR[0]",
+					"strict" : false
+				},
+				{
+					"name" : "dataB[0]",
+					"strict" : false
+				},
+				{
+					"name" : "dataG[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dataR[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dataB[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dataG[2]",
+					"strict" : false
+				},
+				{
+					"name" : "dataR[2]",
+					"strict" : false
+				},
+				{
+					"name" : "dataB[2]",
+					"strict" : false
+				},
+				{
+					"name" : "dataG[3]",
+					"strict" : false
+				},
+				{
+					"name" : "dataR[3]",
+					"strict" : false
+				},
+				{
+					"name" : "dataB[3]",
+					"strict" : false
+				},
+				{
+					"name" : "dataG[4]",
+					"strict" : false
+				},
+				{
+					"name" : "dataR[4]",
+					"strict" : false
+				},
+				{
+					"name" : "dataB[4]",
+					"strict" : false
+				},
+				{
+					"name" : "dataG[5]",
+					"strict" : false
+				},
+				{
+					"name" : "dataR[5]",
+					"strict" : false
+				},
+				{
+					"name" : "dataB[5]",
+					"strict" : false
+				},
+				{
+					"name" : "dataG[6]",
+					"strict" : false
+				},
+				{
+					"name" : "dataR[6]",
+					"strict" : false
+				},
+				{
+					"name" : "dataB[6]",
+					"strict" : false
+				},
+				{
+					"name" : "dataG[7]",
+					"strict" : false
+				},
+				{
+					"name" : "dataR[7]",
+					"strict" : false
+				},
+				{
+					"name" : "dataB[7]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

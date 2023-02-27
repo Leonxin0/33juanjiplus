@@ -1,0 +1,18 @@
+Analysis & Synthesis Status : Successful - Mon Feb 27 10:17:19 2023
+Quartus Prime Version : 18.0.0 Build 614 04/24/2018 SJ Standard Edition
+Revision Name : xxx33
+Top-level Entity Name : Matrix_Generate_3x3_8Bit
+Family : Cyclone IV GX
+Total logic elements : 732
+    Total combinational functions : 388
+    Dedicated logic registers : 489
+Total registers : 489
+Total pins : 98
+Total virtual pins : 0
+Total memory bits : 1,920
+Embedded Multiplier 9-bit elements : 0
+Total GXB Receiver Channel PCS : 0
+Total GXB Receiver Channel PMA : 0
+Total GXB Transmitter Channel PCS : 0
+Total GXB Transmitter Channel PMA : 0
+Total PLLs : 0
